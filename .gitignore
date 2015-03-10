@@ -1,0 +1,7 @@
+Awesome*/bin
+Awesome*/obj
+Awesome*/packages
+*.userprefs
+Resource.designer.cs
+Awesome.Phone/Awesome.Phone/bin
+Awesome.Phone/Awesome.Phone/obj

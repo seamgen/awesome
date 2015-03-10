@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Awesome.Droid", "Awesome.Droid.csproj", "{DEB26AD7-79F3-4F78-B7E9-B264EBABDC6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Awesome.Plugins.Droid", "Awesome.Plugins.Droid", "{08AD82A9-3E28-413E-8351-10420E882D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Awesome.Plugins.PlatformPlugin.Droid", "..\Awesome.Plugins.PlatformPlugin.Droid\Awesome.Plugins.PlatformPlugin.Droid.csproj", "{E117C3C9-C88D-4477-8DCB-D91DB6A02904}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Awesome.Plugins", "Awesome.Plugins", "{44B5F073-9BB3-47F7-92D6-B14DC79D00D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Awesome.Plugins.PlatformPlugin", "..\Awesome.Plugins.PlatformPlugin\Awesome.Plugins.PlatformPlugin.csproj", "{B73021AD-BF8A-4370-AA56-D514805ED165}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Awesome.Core", "Awesome.Core", "{62B422B1-73FA-4250-A686-087D95F8E462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Awesome.Common", "..\Awesome.Common\Awesome.Common.csproj", "{01212D8B-476C-42A5-A283-90691FDF7943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Awesome.Core", "..\Awesome.Core\Awesome.Core.csproj", "{D7DF448D-8242-4389-A99A-D35C17849D52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Awesome.Droid.Wear", "..\Awesome.Droid.Wear\Awesome.Droid.Wear.csproj", "{003ADA92-2890-435F-9858-A6AC6B19AC3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{003ADA92-2890-435F-9858-A6AC6B19AC3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003ADA92-2890-435F-9858-A6AC6B19AC3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003ADA92-2890-435F-9858-A6AC6B19AC3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003ADA92-2890-435F-9858-A6AC6B19AC3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01212D8B-476C-42A5-A283-90691FDF7943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01212D8B-476C-42A5-A283-90691FDF7943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01212D8B-476C-42A5-A283-90691FDF7943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01212D8B-476C-42A5-A283-90691FDF7943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73021AD-BF8A-4370-AA56-D514805ED165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73021AD-BF8A-4370-AA56-D514805ED165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73021AD-BF8A-4370-AA56-D514805ED165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73021AD-BF8A-4370-AA56-D514805ED165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7DF448D-8242-4389-A99A-D35C17849D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7DF448D-8242-4389-A99A-D35C17849D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7DF448D-8242-4389-A99A-D35C17849D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7DF448D-8242-4389-A99A-D35C17849D52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEB26AD7-79F3-4F78-B7E9-B264EBABDC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB26AD7-79F3-4F78-B7E9-B264EBABDC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB26AD7-79F3-4F78-B7E9-B264EBABDC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB26AD7-79F3-4F78-B7E9-B264EBABDC6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E117C3C9-C88D-4477-8DCB-D91DB6A02904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E117C3C9-C88D-4477-8DCB-D91DB6A02904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E117C3C9-C88D-4477-8DCB-D91DB6A02904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E117C3C9-C88D-4477-8DCB-D91DB6A02904}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E117C3C9-C88D-4477-8DCB-D91DB6A02904} = {08AD82A9-3E28-413E-8351-10420E882D66}
+		{B73021AD-BF8A-4370-AA56-D514805ED165} = {44B5F073-9BB3-47F7-92D6-B14DC79D00D8}
+		{01212D8B-476C-42A5-A283-90691FDF7943} = {62B422B1-73FA-4250-A686-087D95F8E462}
+		{D7DF448D-8242-4389-A99A-D35C17849D52} = {62B422B1-73FA-4250-A686-087D95F8E462}
+	EndGlobalSection
+EndGlobal
